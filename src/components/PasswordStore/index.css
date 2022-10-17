@@ -1,0 +1,107 @@
+amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.list-pwd-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #f8fafc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  width: 100%;
+  min-width: 400px;
+  margin-right: 30px;
+  list-style-type: none;
+}
+
+.pwd-store-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 0px;
+}
+
+.initial-container {
+  color: #ffffff;
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+}
+.pwd-detail-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 15px;
+}
+.web-name {
+  color: #ffffff;
+  font-size: 17px;
+  font-family: 'Roboto';
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+}
+.user-name {
+  color: #ffffff;
+  font-size: 17px;
+  font-family: 'Roboto';
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+}
+.del-button {
+  background-color: transparent;
+  border: none;
+}
+.delete-icon {
+  height: 30px;
+  width: 30px;
+}
+.pwd-text {
+  color: #ffffff;
+  font-size: 17px;
+  font-family: 'Roboto';
+}
+.pwd-star-img {
+  width: 120px;
+}
+
+@media screen and (min-width: 768px) {
+  .list-pwd-items {
+    width: 30%;
+    max-width: 100px;
+  }
+}
